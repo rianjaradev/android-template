@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">AndroidTemplate</string>
+    <string name="coroutine_canceled">Coroutine canceled...</string>
+</resources>
