@@ -7,7 +7,7 @@
 
     <fragment
         android:id="@+id/feature1Fragment"
-        android:name="com.rianjaradev.androidtemplate.presentation.ui.feature1.Feature1Fragment"
+        android:name="com.rianjaradev.androidtemplate.poc.presentation.ui.feature1.Feature1Fragment"
         android:label="Feature1Fragment"
         tools:layout="@layout/feature_fragment" />
 </navigation>

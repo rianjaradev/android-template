@@ -1,7 +1,7 @@
 package com.rianjaradev.androidtemplate.di
 
 import com.google.gson.Gson
-import com.rianjaradev.androidtemplate.data.network.Feature1Service
+import com.rianjaradev.androidtemplate.poc.data.network.Feature1Service
 import dagger.Module
 import dagger.Provides
 import dagger.hilt.InstallIn

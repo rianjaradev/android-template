@@ -1,4 +1,4 @@
-package com.rianjaradev.androidtemplate.presentation.ui.feature1
+package com.rianjaradev.androidtemplate.poc.presentation.ui.feature1
 
 import android.util.Log
 import androidx.lifecycle.SavedStateHandle
@@ -9,8 +9,8 @@ import com.github.michaelbull.result.onSuccess
 import com.rianjaradev.androidtemplate.core.exception.NetworkError
 import com.rianjaradev.androidtemplate.core.exception.ServerError
 import com.rianjaradev.androidtemplate.di.IODispatcher
-import com.rianjaradev.androidtemplate.domain.entity.Feature1Params
-import com.rianjaradev.androidtemplate.domain.interactor.Feature1UseCase
+import com.rianjaradev.androidtemplate.poc.domain.entity.Feature1Params
+import com.rianjaradev.androidtemplate.poc.domain.interactor.Feature1UseCase
 import dagger.hilt.android.lifecycle.HiltViewModel
 import kotlinx.coroutines.CoroutineDispatcher
 import kotlinx.coroutines.CoroutineScope

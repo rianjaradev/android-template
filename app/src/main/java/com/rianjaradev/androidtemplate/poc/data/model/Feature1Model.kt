@@ -1,6 +1,6 @@
-package com.rianjaradev.androidtemplate.data.model
+package com.rianjaradev.androidtemplate.poc.data.model
 
-import com.rianjaradev.androidtemplate.domain.entity.Feature1Entity
+import com.rianjaradev.androidtemplate.poc.domain.entity.Feature1Entity
 
 data class Feature1Model(
     val data: String,

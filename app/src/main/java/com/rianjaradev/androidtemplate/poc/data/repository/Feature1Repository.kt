@@ -1,4 +1,4 @@
-package com.rianjaradev.androidtemplate.data.repository
+package com.rianjaradev.androidtemplate.poc.data.repository
 
 import com.github.michaelbull.result.Err
 import com.github.michaelbull.result.Result
@@ -6,12 +6,12 @@ import com.github.michaelbull.result.map
 import com.rianjaradev.androidtemplate.core.exception.CommonError
 import com.rianjaradev.androidtemplate.core.exception.NetworkError
 import com.rianjaradev.androidtemplate.core.network.serviceCallResultWrapper
-import com.rianjaradev.androidtemplate.data.model.toEntity
-import com.rianjaradev.androidtemplate.data.network.Feature1Service
+import com.rianjaradev.androidtemplate.poc.data.model.toEntity
+import com.rianjaradev.androidtemplate.poc.data.network.Feature1Service
 import com.rianjaradev.androidtemplate.di.IODispatcher
-import com.rianjaradev.androidtemplate.domain.entity.Feature1Entity
-import com.rianjaradev.androidtemplate.domain.entity.Feature1Params
-import com.rianjaradev.androidtemplate.domain.repository.IFeature1Repository
+import com.rianjaradev.androidtemplate.poc.domain.entity.Feature1Entity
+import com.rianjaradev.androidtemplate.poc.domain.entity.Feature1Params
+import com.rianjaradev.androidtemplate.poc.domain.repository.IFeature1Repository
 import kotlinx.coroutines.CoroutineDispatcher
 import javax.inject.Inject
 

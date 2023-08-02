@@ -1,6 +1,6 @@
-package com.rianjaradev.androidtemplate.presentation.ui.feature1
+package com.rianjaradev.androidtemplate.poc.presentation.ui.feature1
 
-import com.rianjaradev.androidtemplate.domain.entity.Feature1Entity
+import com.rianjaradev.androidtemplate.poc.domain.entity.Feature1Entity
 
 sealed class Feature1Action {
     object Fetch : Feature1Action()

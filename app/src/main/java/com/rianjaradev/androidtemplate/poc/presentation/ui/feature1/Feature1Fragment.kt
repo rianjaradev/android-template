@@ -1,4 +1,4 @@
-package com.rianjaradev.androidtemplate.presentation.ui.feature1
+package com.rianjaradev.androidtemplate.poc.presentation.ui.feature1
 
 import android.os.Bundle
 import android.view.LayoutInflater
